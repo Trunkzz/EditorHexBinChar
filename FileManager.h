@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 class FileManager {
+
+// Klasse für Dateioperationen: Laden und Speichern
 public:
     bool loadFile(const std::string& filename);
     bool saveFile(const std::string& filename);
