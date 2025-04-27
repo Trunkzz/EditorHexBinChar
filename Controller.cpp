@@ -1,5 +1,7 @@
 #include "Controller.h"
 #include <iostream>
+
+// Hauptschleife: Steuert alle Useraktionen
 void Controller::run(const std::string& filename) {
     FileManager fileManager;
     if (!fileManager.loadFile(filename)) {
