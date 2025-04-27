@@ -1,6 +1,8 @@
 #include "Editor.h"
 #include <sstream>
 #include <bitset>
+
+// Bearbeitet ein Byte an gegebener Position
 bool Editor::editByte(std::vector<unsigned char>& data, size_t position, const std::string& newValue, const std::string& mode) {
     if (position >= data.size()) return false;
     if (mode == "hex") {
