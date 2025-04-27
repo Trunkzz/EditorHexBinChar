@@ -1,4 +1,6 @@
 #include "Controller.h"
+
+// Hauptfunktion - Startpunkt des Programms
 int main(int argc, char* argv[]) {
     if (argc < 2) {
         std::cout << "Bitte eine Datei angeben!" << std::endl;
